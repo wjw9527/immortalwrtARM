@@ -1,8 +1,9 @@
-src-git alist https://github.com/wjw9527/luci-app-alist.git;mine
+# src-git alist https://github.com/wjw9527/luci-app-alist.git;mine
 
 src-git helloworld https://github.com/wjw9527/helloworld.git;mine
-src-git passwall https://github.com/wjw9527/openwrt-passwall.git;mine
-src-git passwall_p https://github.com/wjw9527/openwrt-passwall-packages.git;mine
+
+# src-git passwall https://github.com/wjw9527/openwrt-passwall.git;mine
+# src-git passwall_p https://github.com/wjw9527/openwrt-passwall-packages.git;mine
 
 src-git packages https://github.com/padavanonly/packages.git;openwrt-18.06
 src-git luci https://github.com/padavanonly/luci.git;openwrt-18.06-k5.4
