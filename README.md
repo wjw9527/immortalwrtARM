@@ -58,7 +58,8 @@ To build your own firmware you need a GNU/Linux, BSD or MacOSX system (case sens
     5. Run `git clone --depth=1 https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang`
     6. Run `./scripts/feeds install -a` to install symlinks for all obtained packages into package/feeds/
     7. Run `make menuconfig` to select your preferred configuration for the toolchain, target system & firmware packages.
-    8. Run `make` to build your firmware. This will download all sources, build the cross-compile toolchain and then cross-compile the GNU/Linux kernel & all chosen applications for your target system.
+    8. Run `make download -j$(nproc)`
+    9. Run `make V=s -j$(nproc)`
 
   - Method 2:
     <details>
