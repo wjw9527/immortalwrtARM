@@ -54,9 +54,11 @@ To build your own firmware you need a GNU/Linux, BSD or MacOSX system (case sens
     1. Run `git clone -b mt7981 --single-branch --depth=1 https://github.com/wjw9527/immortalwrtARM.git` to clone the source code.
     2. Run `cd immortalwrt` to enter source directory.
     3. Run `./scripts/feeds update -a` to obtain all the latest package definitions defined in feeds.conf / feeds.conf.default
-    4. Run `./scripts/feeds install -a` to install symlinks for all obtained packages into package/feeds/
-    5. Run `make menuconfig` to select your preferred configuration for the toolchain, target system & firmware packages.
-    6. Run `make` to build your firmware. This will download all sources, build the cross-compile toolchain and then cross-compile the GNU/Linux kernel & all chosen applications for your target system.
+    4. Run `rm -rf feeds/packages/lang/golang`
+    5. Run `git clone --depth=1 https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang`
+    6. Run `./scripts/feeds install -a` to install symlinks for all obtained packages into package/feeds/
+    7. Run `make menuconfig` to select your preferred configuration for the toolchain, target system & firmware packages.
+    8. Run `make` to build your firmware. This will download all sources, build the cross-compile toolchain and then cross-compile the GNU/Linux kernel & all chosen applications for your target system.
 
   - Method 2:
     <details>
