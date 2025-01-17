@@ -6,6 +6,8 @@
 
 src-git helloworld https://github.com/fw876/helloworld.git
 src-git openclash https://github.com/vernesong/OpenClash.git
+scr-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+src-git passwall_packagees https://github.com/xiaorouji/openwrt-passwall-packages.git
 
 
 src-git packages https://github.com/padavanonly/packages.git;openwrt-18.06
