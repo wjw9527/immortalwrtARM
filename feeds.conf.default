@@ -1,13 +1,13 @@
 # src-git alist https://github.com/wjw9527/luci-app-alist.git;mine
 # src-git helloworld https://github.com/wjw9527/helloworld.git;mine
-# src-git passwall https://github.com/wjw9527/openwrt-passwall.git;mine
-# src-git passwall_p https://github.com/wjw9527/openwrt-passwall-packages.git;mine
+src-git passwall https://github.com/wjw9527/openwrt-passwall.git;mine
+src-git passwall_p https://github.com/wjw9527/openwrt-passwall-packages.git;mine
 
 
-src-git helloworld https://github.com/fw876/helloworld.git
-src-git openclash https://github.com/vernesong/OpenClash.git
-src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
-src-git passwall_packagees https://github.com/xiaorouji/openwrt-passwall-packages.git
+# src-git helloworld https://github.com/fw876/helloworld.git
+# src-git openclash https://github.com/vernesong/OpenClash.git
+# src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+# src-git passwall_packagees https://github.com/xiaorouji/openwrt-passwall-packages.git
 
 
 src-git packages https://github.com/padavanonly/packages.git;openwrt-18.06
